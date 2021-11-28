@@ -1,0 +1,12 @@
+<script  defer src="/monitor.js"></script>
+
+<div class="container">
+{{#each monitor}}
+  <div data-monitor={{this.name}}  class="monitor">
+    <div class="m-head">
+      {{this.name}}<input type="button" class="clean-label close" value="x" id="close"></div>
+    <div class="m-body">Body</div>
+    <div class="m-footer">Footer</div>
+  </div>
+{{/each}}
+</div>

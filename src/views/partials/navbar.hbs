@@ -1,0 +1,22 @@
+
+
+
+
+  <div class="nav">
+  <div class="nav_block logo clean-label">CRYPTOzoom</div>
+    
+    <div class="nav_block menu">
+      <input type="button" class="clean-label" value="Главная" id="main">
+      {{#if user}}
+      <input type="button" class="clean-label" value="Добавить монитор" id="add">
+      <input type="button" class="clean-label" value="Личный кабинет" id="lk">
+      <input type="button" class="clean-label" value="Выход" id="exit">
+      {{else}}
+      <input type="button" class="clean-label" value="Регистрация" id="signup">
+      <input type="button" class="clean-label" value="Войти" id="signin">
+      {{/if}}
+    </div>
+    <div class="nav_block logo clean-label">cryptoZOOM</div>
+  
+  </div>
+
